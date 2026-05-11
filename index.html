@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DS Studies</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            background:#0f172a;
+            color:white;
+            font-family:Arial;
+        }
+
+        header{
+            text-align:center;
+            padding:50px;
+        }
+
+        h1{
+            font-size:50px;
+            color:#38bdf8;
+        }
+
+        .cards{
+            display:flex;
+            justify-content:center;
+            gap:30px;
+            flex-wrap:wrap;
+            padding:40px;
+        }
+
+        .card{
+            background:#1e293b;
+            width:300px;
+            padding:25px;
+            border-radius:20px;
+            transition:0.3s;
+        }
+
+        .card:hover{
+            transform:translateY(-10px);
+        }
+
+        button{
+            margin-top:15px;
+            background:#38bdf8;
+            border:none;
+            padding:10px 20px;
+            border-radius:10px;
+            cursor:pointer;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h1>DS Studies</h1>
+        <p>Meu portal de estudos de Desenvolvimento de Sistemas</p>
+    </header>
+
+    <section class="cards">
+
+        <div class="card">
+            <h2>HTML</h2>
+            <p>Estrutura de sites.</p>
+            <button onclick="alert('Área HTML')">Entrar</button>
+        </div>
+
+        <div class="card">
+            <h2>CSS</h2>
+            <p>Estilização moderna.</p>
+            <button onclick="alert('Área CSS')">Entrar</button>
+        </div>
+
+        <div class="card">
+            <h2>JavaScript</h2>
+            <p>Programação web.</p>
+            <button onclick="alert('Área JS')">Entrar</button>
+        </div>
+
+    </section>
+
+</body>
+</html>
